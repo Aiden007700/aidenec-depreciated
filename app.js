@@ -1,17 +1,11 @@
 const express = require("express");
 const app = express();
-const path = require('path'); 
+const indexRoutes = require('./routes/index')
 
 app.use(express.static("public"));
 
-app.get('/portfolio', (req, res, next) =>{
-  res.sendFile(path.join(__dirname + '/portfolio.html'));
-})
+app.use('/', indexRoutes)
 
-app.get('/', (req, res, next) =>{
-  res.sendFile(path.join(__dirname + '/index.html'));
-})
-
-app.listen(3050, () => {
-  console.log(3050);
+app.listen(3001, () => {
+  console.log(3001);
 });
