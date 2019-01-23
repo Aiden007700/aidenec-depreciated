@@ -9,6 +9,9 @@ const Nav = () => {
         <Link activeClassName='selected' href="/">
           <a className={`nav__item white`}>About</a>
         </Link>
+        <Link activeClassName='selected' href="/resume">
+          <a className={`nav__item white`}>Resume</a>
+        </Link>
         <Link activeClassName='selected' href="/work">
           <a className={`nav__item white`}> Portfolio</a>
         </Link>

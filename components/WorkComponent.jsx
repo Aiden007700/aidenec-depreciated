@@ -1,6 +1,6 @@
 const WorkComponent = () => {
 return (
-    <section id="portfolio">
+    <section>
     <div class="portfolio">
       <div class="portfolio__item i1" id="1">
         <div class="portfolio__item__content">

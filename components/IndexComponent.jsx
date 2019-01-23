@@ -1,7 +1,7 @@
 const IndexComponent = () => {
   return (
     <>
-      <section id="about">
+      <section>
         <div class="about">
           <h1 class="heading">
             <span class="heading__highlight">Aiden Campbell</span>,

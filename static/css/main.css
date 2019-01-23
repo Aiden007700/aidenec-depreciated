@@ -132,7 +132,6 @@ h1 {
 #getintouch {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
 }
 @media screen and (max-width: 700px) {
   #about,
@@ -145,7 +144,6 @@ h1 {
 
 .portfolio {
   height: 100vh;
-  max-width: 70%;
   width: 100%;
   padding: 5rem 3rem;
   display: flex;
@@ -347,26 +345,16 @@ h1 {
 }
 .header {
   background-color: var(--background-white-c);
-  max-width: 30%;
-  position: fixed;
-  top: 0;
-  left: 0;
+  /* max-width: 30%; */
+  /* position: fixed; */
+  /* top: 0; */
+  /* left: 0; */
   height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-.header .logo__box {
-  align-self: flex-start;
-}
-.header__logo {
-  align-self: flex-start;
-  width: 100%;
-  max-width: 22.5rem;
-  padding: 1rem 0;
-  flex: 0 0 auto;
 }
 .header__by {
   align-self: flex-start;
@@ -417,7 +405,7 @@ h1 {
 .nav__img {
   position: absolute;
   width: 50rem;
-  z-index: -1;
+  z-index: 1;
   left: -30rem;
   animation: left-slide 2s;
   border-radius: 10px;
@@ -425,6 +413,7 @@ h1 {
 .nav__item {
   font-size: 5rem;
   color: inherit;
+  z-index: 2;
   text-decoration: none;
   transition: all .2s;
 }
@@ -476,8 +465,6 @@ h1 {
 
 .about {
   min-height: 100vh;
-  max-width: 70%;
-  width: 100%;
   padding: 5rem 3rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;

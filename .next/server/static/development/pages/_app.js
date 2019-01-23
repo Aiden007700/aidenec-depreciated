@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
 /* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/aiden/webdev/aidenec/components/Footer.jsx";
+var _jsxFileName = "/home/aiden/webdev/DoneProjectsFull/aidenec/components/Footer.jsx";
 
 
 function _templateObject() {
@@ -230,7 +230,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/aiden/webdev/aidenec/components/Head.jsx";
+var _jsxFileName = "/home/aiden/webdev/DoneProjectsFull/aidenec/components/Head.jsx";
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
@@ -310,7 +310,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _util_Link__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./util/Link */ "./components/util/Link.jsx");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/aiden/webdev/aidenec/components/Nav.jsx";
+var _jsxFileName = "/home/aiden/webdev/DoneProjectsFull/aidenec/components/Nav.jsx";
 
 
 
@@ -355,7 +355,7 @@ var Nav = function Nav() {
     __self: this
   }, "About")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_util_Link__WEBPACK_IMPORTED_MODULE_0__["default"], {
     activeClassName: "selected",
-    href: "/work",
+    href: "/resume",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -368,11 +368,26 @@ var Nav = function Nav() {
       lineNumber: 13
     },
     __self: this
+  }, "Resume")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_util_Link__WEBPACK_IMPORTED_MODULE_0__["default"], {
+    activeClassName: "selected",
+    href: "/work",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    className: "nav__item white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
   }, " Portfolio")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 18
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
@@ -381,14 +396,14 @@ var Nav = function Nav() {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
     className: "fab fa-linkedin-in",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 24
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
@@ -397,54 +412,54 @@ var Nav = function Nav() {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 26
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("i", {
     className: "fab fa-github",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 31
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("footer", {
     class: "header__contact-box",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 35
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 36
     },
     __self: this
   }, "N:", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
     className: "highlite",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 38
     },
     __self: this
   }, " +48 515 817 829")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 40
     },
     __self: this
   }, "E:", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
     className: "highlite",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 42
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "mailto:campbell.e.aiden@gmail.com",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 43
     },
     __self: this
   }, " campbell.e.aiden@gmail.com")))));
@@ -468,36 +483,61 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Nav */ "./components/Nav.jsx");
 /* harmony import */ var _Head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Head */ "./components/Head.jsx");
 /* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Footer */ "./components/Footer.jsx");
-var _jsxFileName = "/home/aiden/webdev/aidenec/components/Page.jsx";
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_4__);
+var _jsxFileName = "/home/aiden/webdev/DoneProjectsFull/aidenec/components/Page.jsx";
+
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["\n  display: grid !important;\n  grid-template-columns: 30% 1fr !important;\n  grid-template-rows: 100% !important;\n\n  .nav {\n    grid-column: 1 / 2 !important;\n  }\n\n  .content {\n    grid-column: 2 / 3 !important;\n  }\n\n  @media only screen and (max-width: 700px) {\n    .content {\n      grid-column: 1 / 3 !important;\n    }\n  }\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 
 
 
+
+
+var Grid = styled_components__WEBPACK_IMPORTED_MODULE_4___default.a.div(_templateObject());
 
 var Page = function Page(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Head__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 30
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Grid, {
     className: "scroll-disable fade-out",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 31
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    className: "nav",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 32
     },
     __self: this
-  }), props.children, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "content",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 33
+    },
+    __self: this
+  }, props.children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
     },
     __self: this
   })));
@@ -522,7 +562,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/home/aiden/webdev/aidenec/components/util/Link.jsx";
+var _jsxFileName = "/home/aiden/webdev/DoneProjectsFull/aidenec/components/util/Link.jsx";
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -577,7 +617,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/app */ "next/app");
 /* harmony import */ var next_app__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_app__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Page */ "./components/Page.jsx");
-var _jsxFileName = "/home/aiden/webdev/aidenec/pages/_app.jsx";
+var _jsxFileName = "/home/aiden/webdev/DoneProjectsFull/aidenec/pages/_app.jsx";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
