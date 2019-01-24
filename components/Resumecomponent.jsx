@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledResume = styled.div`
-  width: 80%;
+  width: 70%;
   padding: 5rem 3rem;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
@@ -13,7 +13,6 @@ const StyledResume = styled.div`
 
   .name {
     font-size: 2.5em;
-    margin-bottom: 3rem;
     font-family: "Stardos Stencil", cursive;
   }
 
@@ -25,7 +24,7 @@ const StyledResume = styled.div`
 
   p {
     margin: 1rem 0;
-    width: 60%;
+    width: 80%;
   }
 
   .bold,
@@ -45,6 +44,13 @@ const StyledResume = styled.div`
       padding: 1rem;
       border-radius: 4px;
       margin: 1rem;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      transition: all 0.2s;
+
+      &:hover {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+          0 10px 10px rgba(0, 0, 0, 0.22);
+      }
     }
   }
 
@@ -58,8 +64,15 @@ const StyledResume = styled.div`
       margin: 2rem;
       border-radius: 4px;
       background-color: #f7f7f7;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      transition: all 0.2s;
+
+      &:hover {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+          0 10px 10px rgba(0, 0, 0, 0.22);
+      }
       &__skill {
-        padding: 1rem 0.2rem;
+        padding: 1rem 2.5rem;
       }
       &__skill:nth-child(even) {
         background-color: #fcfcfc;
@@ -72,6 +85,13 @@ const StyledResume = styled.div`
     padding: 1rem;
     border-radius: 4px;
     width: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.2s;
+
+    &:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.22);
+    }
   }
 
   .project--box {
@@ -79,6 +99,13 @@ const StyledResume = styled.div`
     padding: 1rem;
     border-radius: 4px;
     width: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.2s;
+
+    &:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.22);
+    }
   }
 
   .stack-n-scope {
@@ -89,6 +116,23 @@ const StyledResume = styled.div`
       ul li {
         padding: 0.25rem 0.2rem;
       }
+    }
+  }
+
+  @media screen and (max-width: 1400px) {
+    width: 90%;
+  }
+
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 700px) {
+    .tagContainer {
+      flex-wrap: 
+    }
+    .skills {
+      flex-direction: column;
     }
   }
 `;
@@ -106,31 +150,29 @@ const Resumecomponent = () => {
             <li>Krakow</li>
             <li>EN</li>
             <li>PL</li>
-            <li>Bravelab</li>
+            <li>
+              <a href="https://bravelab.io" target="_blank">
+                Bravelab
+              </a>
+            </li>
           </ul>
           <p>
-            Hey there! I am a self-motivated web developer. Ambitious
+            Hey there! I am a self-motivated web developer. Ambitious &
             problem-solving. From New York, currently in Krakow.
           </p>
           <ul>
             <li>
-              <strong>Free:</strong> for both the CV builder and the hosting, no
-              small print, no ads
+              <strong>Education:</strong> MBA Candidate, BBA
             </li>
             <li>
-              <strong>No nonsense:</strong> because content is the queen/king
+              <strong>Languages:</strong> English, Polish
             </li>
             <li>
-              <strong>Responsive:</strong> not to brag, but I'm pretty awesome
-              on mobile too
+              <strong>Visited:</strong> 🇺🇸🇵🇱🇯🇵🇲🇽🇹🇭🇩🇪🇫🇷🇳🇱🇭🇺
             </li>
           </ul>
-          <p>😍🤷🎄❤️😂 {"<-"} Random emojis if you think those are cool.</p>
           <h2 className="subheading">Skills</h2>
-          <blockquote>
-            Not limited to those below – can learn anything, duh. Think of this
-            as an appetizer and imagine what an entrée looks like.
-          </blockquote>
+          <blockquote>Not limited to those below</blockquote>
           <div className="skills">
             <ul className="skill-box">
               <li className="bold skill-box__skill">FRONTEND</li>
@@ -153,7 +195,7 @@ const Resumecomponent = () => {
             </ul>
           </div>
           <p className="infoBox">
-            <strong>Want to learn</strong>: Go, Rust
+            <strong>Want to learn</strong>: GatsbyJS
           </p>
           <h2 className="subheading">Latest Projects</h2>
           <div className="project--box">

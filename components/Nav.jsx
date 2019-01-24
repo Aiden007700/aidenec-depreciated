@@ -15,7 +15,7 @@ const Nav = () => {
         <Link activeClassName='selected' href="/work">
           <a className={`nav__item white`}> Portfolio</a>
         </Link>
-        <div className="">
+        <div className="social-media--box">
           <a
             className='nav__item white nav__icon'
             href="https://linkedin.com/in/aidenec"

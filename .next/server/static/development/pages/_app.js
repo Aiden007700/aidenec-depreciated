@@ -384,7 +384,7 @@ var Nav = function Nav() {
     },
     __self: this
   }, " Portfolio")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "",
+    className: "social-media--box",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
@@ -488,7 +488,7 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/home/aiden/webdev/DoneProjectsFull/aidenec/components/Page.jsx";
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  display: grid !important;\n  grid-template-columns: 30% 1fr !important;\n  grid-template-rows: 100% !important;\n\n  .nav {\n    grid-column: 1 / 2 !important;\n  }\n\n  .content {\n    grid-column: 2 / 3 !important;\n  }\n\n  @media only screen and (max-width: 700px) {\n    .content {\n      grid-column: 1 / 3 !important;\n    }\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  display: grid;\n  grid-template-columns: 30% 1fr;\n  grid-template-rows: 50px 1fr;\n  min-height: 100vh;\n\n  .nav {\n    grid-column: 1 / 2;\n    grid-row: 1 / 3;\n  }\n\n  .content {\n    grid-column: 2 / 3;\n    grid-row: 1 / 3;\n  }\n\n  @media only screen and (max-width: 700px) {\n    .content {\n      grid-column: 1 / 3;\n      grid-row: 2 / 3;\n    }\n\n    .nav {\n      grid-column: 1 / 3;\n      grid-row: 1 / 2;\n    }\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -510,34 +510,40 @@ var Page = function Page(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Head__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 39
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Grid, {
     className: "scroll-disable fade-out",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 40
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "nav",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 41
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Nav__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "content",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 44
     },
     __self: this
   }, props.children), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 45
     },
     __self: this
   })));
