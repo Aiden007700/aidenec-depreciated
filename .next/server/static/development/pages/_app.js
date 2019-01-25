@@ -423,7 +423,7 @@ var Nav = function Nav() {
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("footer", {
-    class: "header__contact-box",
+    className: "header__contact-box",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35

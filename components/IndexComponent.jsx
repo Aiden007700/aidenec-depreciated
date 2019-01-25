@@ -2,17 +2,17 @@ const IndexComponent = () => {
   return (
     <>
       <section>
-        <div class="about">
-          <h1 class="heading">
-            <span class="heading__highlight">Aiden Campbell</span>,
-            <br /> a <span class="heading__highlight">
+        <div className="about">
+          <h1 className="heading">
+            <span className="heading__highlight">Aiden Campbell</span>,
+            <br /> a <span className="heading__highlight">
               Business Developer
             </span>{" "}
             turned
-             <span class="heading__highlight"> Web Developer</span>.
+             <span className="heading__highlight"> Web Developer</span>.
           </h1>
-          <p class="about__para">From New York, currently in Krakow.</p>
-          <div class="card-box" />
+          <p className="about__para">From New York, currently in Krakow.</p>
+          <div className="card-box" />
         </div>
       </section>
     </>

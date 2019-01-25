@@ -32,7 +32,7 @@ const Nav = () => {
           </a>
         </div>
       </nav>
-      <footer class="header__contact-box">
+      <footer className="header__contact-box">
         <h2>
           N:
           <span className="highlite"> +48 515 817 829</span>
