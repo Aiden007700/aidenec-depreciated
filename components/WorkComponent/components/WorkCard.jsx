@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const Detailview = styled.div`
-    .back {
+    a {
         font-size: 3rem;
     }
 `;
@@ -9,18 +9,23 @@ const Detailview = styled.div`
 class WorkCard extends React.Component {
     render() {
         const {active, i, url, selectActive} = this.props
-        return (  
-            <div key={i} className={`portfolio__item i${i + 1} ${active === (i + 1) ? "active" : "not--active"}`} id={`${i + 1}`}>
-                {active === (i + 1) ? 
-                <Detailview>
-                    <span className='back' onClick={() => selectActive(null)}>Back</span>
-                </Detailview>
-                :
-                <div className="portfolio__item__content" onClick={() => selectActive((i + 1))}>
+        return ( 
+            <>
+            {active !== (i + 1 ) && 
+            <div key={i} className={`portfolio__item i${i + 1} not--active`} id={`${i + 1}`} onClick={() => selectActive((i + 1))}>
+                <div className="portfolio__item__content" >
                     <a href={url}></a>
                 </div>
-                }
             </div>
+            }
+            {active === (i + 1) && 
+            <div key={i} className={`portfolio__item i${i + 1} active`} id={`${i + 1}`} onClick={() => selectActive(null)}>
+                <Detailview>
+                    <a href="aidenec.com" target="_blank">Cool</a>
+                </Detailview>
+            </div>
+            }
+            </>
       ); 
     }
 }

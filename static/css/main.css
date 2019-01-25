@@ -231,12 +231,6 @@ h1 {
   .portfolio__item {
     min-width: 80%;
   }
-  .portfolio .i3,
-  .portfolio .i4,
-  .portfolio .i7,
-  .portfolio .i8 {
-    display: none;
-  }
   .portfolio .i1,
   .portfolio .i2,
   .portfolio .i5,

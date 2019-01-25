@@ -34,7 +34,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n    .back {\n        font-size: 3rem;\n    }\n"]);
+  var data = _taggedTemplateLiteral(["\n    a {\n        font-size: 3rem;\n    }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -67,49 +67,59 @@ function (_React$Component) {
           i = _this$props.i,
           url = _this$props.url,
           selectActive = _this$props.selectActive;
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, active !== i + 1 && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         key: i,
-        className: "portfolio__item i".concat(i + 1, " ").concat(active === i + 1 ? "active" : "not--active"),
+        className: "portfolio__item i".concat(i + 1, " not--active"),
         id: "".concat(i + 1),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        },
-        __self: this
-      }, active === i + 1 ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Detailview, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "back",
-        onClick: function onClick() {
-          return selectActive(null);
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        },
-        __self: this
-      }, "Back")) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "portfolio__item__content",
         onClick: function onClick() {
           return selectActive(i + 1);
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 15
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "portfolio__item__content",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: url,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 17
         },
         __self: this
-      })));
+      }))), active === i + 1 && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        key: i,
+        className: "portfolio__item i".concat(i + 1, " active"),
+        id: "".concat(i + 1),
+        onClick: function onClick() {
+          return selectActive(null);
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Detailview, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "aidenec.com",
+        target: "_blank",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
+      }, "Cool"))));
     }
   }]);
 
@@ -159,7 +169,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\n  .not--active:hover {\n    transform: scale(1.1);\n    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);\n  }\n\n  .i1 {\n    grid-column-start: 1;\n    grid-column-end: 2;\n    grid-row-start: 1;\n    grid-row-end: 2;\n  }\n\n  .i2 {\n    grid-column-start: 2;\n    grid-column-end: 3;\n    grid-row-start: 1;\n    grid-row-end: 2;\n  }\n\n  .i3 {\n    grid-column-start: 3;\n    grid-column-end: 4;\n    grid-row-start: 1;\n    grid-row-end: 2;\n  }\n\n  .i4 {\n    grid-column-start: 1;\n    grid-column-end: 2;\n    grid-row-start: 2;\n    grid-row-end: 3;\n  }\n\n  .i5 {\n    grid-column-start: 2;\n    grid-column-end: 3;\n    grid-row-start: 2;\n    grid-row-end: 3;\n  }\n\n  .i6 {\n    grid-column-start: 3;\n    grid-column-end: 4;\n    grid-row-start: 2;\n    grid-row-end: 3;\n  }\n\n  .i7 {\n    grid-column-start: 1;\n    grid-column-end: 2;\n    grid-row-start: 3;\n    grid-row-end: 4;\n  }\n\n  .i8 {\n    grid-column-start: 2;\n    grid-column-end: 3;\n    grid-row-start: 3;\n    grid-row-end: 4;\n  }\n\n  .i9 {\n    grid-column-start: 3;\n    grid-column-end: 4;\n    grid-row-start: 3;\n    grid-row-end: 4;\n  }\n\n  .active {\n    z-index: 100;\n    grid-column: 1/4;\n    grid-row: 1/4;\n    transform: none;\n  }\n\n  @media screen and (max-width: 700px) {\n    .not--active:hover {\n      transform: none;\n      box-shadow: none;\n    }\n\n    .active {\n      z-index: 100;\n      height: 100vh;\n      width: 100vw;\n      transform: none;\n    }\n    .i1 {\n      grid-column-start: 1;\n      grid-column-end: 2;\n      grid-row-start: 1;\n      grid-row-end: 2;\n    }\n\n    .i2 {\n      grid-column-start: 1;\n      grid-column-end: 2;\n      grid-row-start: 2;\n      grid-row-end: 3;\n    }\n\n    .i3 {\n      grid-column-start: 1;\n      grid-column-end: 2;\n      grid-row-start: 3;\n      grid-row-end: 4;\n    }\n\n    .i4 {\n      grid-column-start: 1;\n      grid-column-end: 2;\n      grid-row-start: 4;\n      grid-row-end: 5;\n    }\n\n    .i5 {\n      grid-column-start: 1;\n      grid-column-end: 2;\n      grid-row-start: 5;\n      grid-row-end: 6;\n    }\n\n    .i6 {\n      grid-column-start: 1;\n      grid-column-end: 2;\n      grid-row-start: 6;\n      grid-row-end: 7;\n    }\n\n    .i7 {\n      grid-column-start: 1;\n      grid-column-end: 2;\n      grid-row-start: 7;\n      grid-row-end: 8;\n    }\n\n    .i8 {\n      grid-column-start: 1;\n      grid-column-end: 2;\n      grid-row-start: 8;\n      grid-row-end: 9;\n    }\n\n    .i9 {\n      grid-column-start: 1;\n      grid-column-end: 2;\n      grid-row-start: 9;\n      grid-row-end: 10;\n    }\n\n    .portfolio__item {\n      min-height: 20vh;\n    }\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  .not--active:hover {\n    transform: scale(1.1);\n    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);\n  }\n\n  .portfolio__item__content a {\n    cursor: pointer;\n  }\n\n  .i1 {\n    grid-column-start: 1;\n    grid-column-end: 2;\n    grid-row-start: 1;\n    grid-row-end: 2;\n  }\n\n  .i2 {\n    grid-column-start: 2;\n    grid-column-end: 3;\n    grid-row-start: 1;\n    grid-row-end: 2;\n  }\n\n  .i3 {\n    grid-column-start: 3;\n    grid-column-end: 4;\n    grid-row-start: 1;\n    grid-row-end: 2;\n  }\n\n  .i4 {\n    grid-column-start: 1;\n    grid-column-end: 2;\n    grid-row-start: 2;\n    grid-row-end: 3;\n  }\n\n  .i5 {\n    grid-column-start: 2;\n    grid-column-end: 3;\n    grid-row-start: 2;\n    grid-row-end: 3;\n  }\n\n  .i6 {\n    grid-column-start: 3;\n    grid-column-end: 4;\n    grid-row-start: 2;\n    grid-row-end: 3;\n  }\n\n  .i7 {\n    grid-column-start: 1;\n    grid-column-end: 2;\n    grid-row-start: 3;\n    grid-row-end: 4;\n  }\n\n  .i8 {\n    grid-column-start: 2;\n    grid-column-end: 3;\n    grid-row-start: 3;\n    grid-row-end: 4;\n  }\n\n  .i9 {\n    grid-column-start: 3;\n    grid-column-end: 4;\n    grid-row-start: 3;\n    grid-row-end: 4;\n  }\n\n  .active {\n    z-index: 100;\n    grid-column: 1/4;\n    grid-row: 1/4;\n    transform: none;\n  }\n\n  @media screen and (max-width: 700px) {\n    .not--active:hover {\n      transform: none;\n      box-shadow: none;\n    }\n\n    .active {\n      z-index: 3;\n      height: 100vh;\n      width: 100vw;\n      transform: none;\n      position: fixed;\n      top: 0;\n      left: 0;\n      border-radius: 0;\n      padding: 10vh 1rem 1rem 1rem;\n    }\n    .i1 {\n      grid-column-start: 1;\n      grid-column-end: 2;\n      grid-row-start: 1;\n      grid-row-end: 2;\n    }\n\n    .i2 {\n      grid-column-start: 1;\n      grid-column-end: 2;\n      grid-row-start: 2;\n      grid-row-end: 3;\n    }\n\n    .i3 {\n      grid-column-start: 1;\n      grid-column-end: 2;\n      grid-row-start: 3;\n      grid-row-end: 4;\n    }\n\n    .i4 {\n      grid-column-start: 1;\n      grid-column-end: 2;\n      grid-row-start: 4;\n      grid-row-end: 5;\n    }\n\n    .i5 {\n      grid-column-start: 1;\n      grid-column-end: 2;\n      grid-row-start: 5;\n      grid-row-end: 6;\n    }\n\n    .i6 {\n      grid-column-start: 1;\n      grid-column-end: 2;\n      grid-row-start: 6;\n      grid-row-end: 7;\n    }\n\n    .i7 {\n      grid-column-start: 1;\n      grid-column-end: 2;\n      grid-row-start: 7;\n      grid-row-end: 8;\n    }\n\n    .i8 {\n      grid-column-start: 1;\n      grid-column-end: 2;\n      grid-row-start: 8;\n      grid-row-end: 9;\n    }\n\n    .i9 {\n      grid-column-start: 1;\n      grid-column-end: 2;\n      grid-row-start: 9;\n      grid-row-end: 10;\n    }\n\n    .portfolio__item {\n      min-height: 20vh;\n    }\n  }\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -228,14 +238,14 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Section, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 199
+          lineNumber: 208
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Grid, {
         className: "portfolio",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 200
+          lineNumber: 209
         },
         __self: this
       }, data.map(function (data, i) {
@@ -246,7 +256,7 @@ function (_React$Component) {
           i: i,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 202
+            lineNumber: 211
           },
           __self: this
         });

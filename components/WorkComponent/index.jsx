@@ -23,6 +23,10 @@ const Section = styled.section`
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   }
 
+  .portfolio__item__content a {
+    cursor: pointer;
+  }
+
   .i1 {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -100,10 +104,15 @@ const Section = styled.section`
     }
 
     .active {
-      z-index: 100;
+      z-index: 3;
       height: 100vh;
       width: 100vw;
       transform: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      border-radius: 0;
+      padding: 10vh 1rem 1rem 1rem;
     }
     .i1 {
       grid-column-start: 1;
