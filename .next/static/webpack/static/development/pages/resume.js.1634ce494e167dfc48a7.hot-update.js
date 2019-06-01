@@ -1,97 +1,4 @@
-module.exports =
-/******/ (function(modules) { // webpackBootstrap
-/******/ 	// The module cache
-/******/ 	var installedModules = require('../../../ssr-module-cache.js');
-/******/
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
-/******/ 			return installedModules[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moduleId,
-/******/ 			l: false,
-/******/ 			exports: {}
-/******/ 		};
-/******/
-/******/ 		// Execute the module function
-/******/ 		var threw = true;
-/******/ 		try {
-/******/ 			modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/ 			threw = false;
-/******/ 		} finally {
-/******/ 			if(threw) delete installedModules[moduleId];
-/******/ 		}
-/******/
-/******/ 		// Flag the module as loaded
-/******/ 		module.l = true;
-/******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/
-/******/
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = modules;
-/******/
-/******/ 	// expose the module cache
-/******/ 	__webpack_require__.c = installedModules;
-/******/
-/******/ 	// define getter function for harmony exports
-/******/ 	__webpack_require__.d = function(exports, name, getter) {
-/******/ 		if(!__webpack_require__.o(exports, name)) {
-/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
-/******/ 		}
-/******/ 	};
-/******/
-/******/ 	// define __esModule on exports
-/******/ 	__webpack_require__.r = function(exports) {
-/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 		}
-/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 	};
-/******/
-/******/ 	// create a fake namespace object
-/******/ 	// mode & 1: value is a module id, require it
-/******/ 	// mode & 2: merge all properties of value into the ns
-/******/ 	// mode & 4: return value when already ns object
-/******/ 	// mode & 8|1: behave like require
-/******/ 	__webpack_require__.t = function(value, mode) {
-/******/ 		if(mode & 1) value = __webpack_require__(value);
-/******/ 		if(mode & 8) return value;
-/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
-/******/ 		var ns = Object.create(null);
-/******/ 		__webpack_require__.r(ns);
-/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
-/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
-/******/ 		return ns;
-/******/ 	};
-/******/
-/******/ 	// getDefaultExport function for compatibility with non-harmony modules
-/******/ 	__webpack_require__.n = function(module) {
-/******/ 		var getter = module && module.__esModule ?
-/******/ 			function getDefault() { return module['default']; } :
-/******/ 			function getModuleExports() { return module; };
-/******/ 		__webpack_require__.d(getter, 'a', getter);
-/******/ 		return getter;
-/******/ 	};
-/******/
-/******/ 	// Object.prototype.hasOwnProperty.call
-/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
-/******/
-/******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
-/******/
-/******/
-/******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
-/******/ })
-/************************************************************************/
-/******/ ({
+webpackHotUpdate("static/development/pages/resume.js",{
 
 /***/ "./components/Resumecomponent.jsx":
 /*!****************************************!*\
@@ -102,10 +9,9 @@ module.exports =
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 var _jsxFileName = "/home/aiden/webdev/DoneProjectsFull/aidenec/components/Resumecomponent.jsx";
 
 
@@ -122,7 +28,7 @@ function _templateObject() {
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 
-var StyledResume = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div(_templateObject());
+var StyledResume = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject());
 
 var Resumecomponent = function Resumecomponent() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
@@ -199,25 +105,25 @@ var Resumecomponent = function Resumecomponent() {
       lineNumber: 143
     },
     __self: this
-  }, "Bravelab"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  }, "Bravelab"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 148
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Hey there! I am a self-motivated web developer. Ambitious & problem-solving. From New York, currently in Krakow."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149
+      lineNumber: 152
     },
     __self: this
-  }, "Business Developer turned Web Developer. From New York, currently in Krakow. Aiden loves to make web applications and engaging user experiences based on 7 years of work experience with some of the world's largest financial and pharmaceutical institutions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154
+      lineNumber: 153
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Education:"), " MBA Candidate, BBA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 155
@@ -229,7 +135,7 @@ var Resumecomponent = function Resumecomponent() {
       lineNumber: 156
     },
     __self: this
-  }, "Education:"), " MBA, BS. Computer Science, BBA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Languages:"), " English, Polish"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 158
@@ -241,200 +147,331 @@ var Resumecomponent = function Resumecomponent() {
       lineNumber: 159
     },
     __self: this
-  }, "Languages:"), " English, Polish"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 161
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 162
-    },
-    __self: this
-  }, "Visited:"), " \uD83C\uDDFA\uD83C\uDDF8 \uD83C\uDDF5\uD83C\uDDF1 \uD83C\uDDEF\uD83C\uDDF5 \uD83C\uDDF2\uD83C\uDDFD \uD83C\uDDF9\uD83C\uDDED \uD83C\uDDE9\uD83C\uDDEA \uD83C\uDDEB\uD83C\uDDF7 \uD83C\uDDF3\uD83C\uDDF1 \uD83C\uDDED\uD83C\uDDFA \uD83C\uDDFA\uD83C\uDDE6 \uD83C\uDDE7\uD83C\uDDE7 \uD83C\uDDF2\uD83C\uDDE8 \uD83C\uDDE8\uD83C\uDDFF"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  }, "Visited:"), " \uD83C\uDDFA\uD83C\uDDF8 \uD83C\uDDF5\uD83C\uDDF1 \uD83C\uDDEF\uD83C\uDDF5 \uD83C\uDDF2\uD83C\uDDFD \uD83C\uDDF9\uD83C\uDDED \uD83C\uDDE9\uD83C\uDDEA \uD83C\uDDEB\uD83C\uDDF7 \uD83C\uDDF3\uD83C\uDDF1 \uD83C\uDDED\uD83C\uDDFA \uD83C\uDDFA\uD83C\uDDE6 \uD83C\uDDE7\uD83C\uDDE7"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "subheading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164
+      lineNumber: 161
     },
     __self: this
   }, "Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "skills",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 165
+      lineNumber: 162
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "skill-box",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 166
+      lineNumber: 163
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "bold skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 167
+      lineNumber: 164
     },
     __self: this
   }, "FRONTEND"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168
+      lineNumber: 165
     },
     __self: this
   }, "Javascript/ES.Next/TypeScript"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171
+      lineNumber: 168
     },
     __self: this
   }, "React/Next.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172
+      lineNumber: 169
     },
     __self: this
   }, "Redux/Apollo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 173
+      lineNumber: 170
     },
     __self: this
   }, "SASS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 174
+      lineNumber: 171
     },
     __self: this
   }, "Webpack/Parcel/NPM")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "skill-box",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176
+      lineNumber: 173
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "bold skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177
+      lineNumber: 174
     },
     __self: this
   }, "BACKEND"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178
+      lineNumber: 175
     },
     __self: this
   }, "Node.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179
+      lineNumber: 176
     },
     __self: this
   }, "Express.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 180
+      lineNumber: 177
     },
     __self: this
   }, "Apollo Server"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181
+      lineNumber: 178
     },
     __self: this
   }, "GraphQL/REST"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 179
+    },
+    __self: this
+  }, "MySQL/MongoDB"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "infoBox",
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 182
     },
     __self: this
-  }, "MySQL/MongoDB"))))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 183
+    },
+    __self: this
+  }, "Want to learn"), ": GatsbyJS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "subheading",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 185
+    },
+    __self: this
+  }, "Latest Projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "latest--projects",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 186
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project--box",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 187
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "bold bottomBorder",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 188
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://mclinica.com/",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 189
+    },
+    __self: this
+  }, "mClinica (SwipeRX)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 193
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 194
+    },
+    __self: this
+  }, "Role:"), " Fullstack developer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "stack-n-scope",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 196
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "stack-n-scope__section",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 197
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 198
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 199
+    },
+    __self: this
+  }, "Frontend:"), " React, Redux, Typescript, ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 199
+    },
+    __self: this
+  }), " ", "Webpack, Styled-Components, Moment.JS, React Router"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 202
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 203
+    },
+    __self: this
+  }, "Backend:"), " Node, Warp, Express, Sentry"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 205
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 206
+    },
+    __self: this
+  }, "Server:"), " MySQL, Azure, Papertrail")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "project--box",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 211
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "bold bottomBorder",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 212
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.imssensory.com/en/rd/",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 213
+    },
+    __self: this
+  }, "IMS r&d (MapMaker)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 217
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 218
+    },
+    __self: this
+  }, "Role:"), " Frontend developer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "stack-n-scope",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 220
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "stack-n-scope__section",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 221
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 222
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 223
+    },
+    __self: this
+  }, "Frontend:"), " Angular 4, RxJs, Typescript, ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 223
+    },
+    __self: this
+  }), " ", "Webpack, Leaflet, OpenStreetMap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 226
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 227
+    },
+    __self: this
+  }, "Backend:"), " Django, Sentry"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 229
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 230
+    },
+    __self: this
+  }, "Server:"), " MySQL"))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Resumecomponent);
 
-/***/ }),
-
-/***/ "./pages/resume.jsx":
-/*!**************************!*\
-  !*** ./pages/resume.jsx ***!
-  \**************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Resumecomponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Resumecomponent */ "./components/Resumecomponent.jsx");
-var _jsxFileName = "/home/aiden/webdev/DoneProjectsFull/aidenec/pages/resume.jsx";
-
-
-
-var Resume = function Resume(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Resumecomponent__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  });
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Resume);
-
-/***/ }),
-
-/***/ 5:
-/*!********************************!*\
-  !*** multi ./pages/resume.jsx ***!
-  \********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! ./pages/resume.jsx */"./pages/resume.jsx");
-
-
-/***/ }),
-
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react");
-
-/***/ }),
-
-/***/ "styled-components":
-/*!************************************!*\
-  !*** external "styled-components" ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("styled-components");
-
 /***/ })
 
-/******/ });
-//# sourceMappingURL=resume.js.map
+})
+//# sourceMappingURL=resume.js.1634ce494e167dfc48a7.hot-update.js.map

@@ -145,18 +145,21 @@ const Resumecomponent = () => {
               </a>
             </li>
           </ul>
+          <br/>
           <p>
-            Hey there! I am a self-motivated web developer. Ambitious &
-            problem-solving. From New York, currently in Krakow.
+          Business Developer turned Web Developer. From New York, currently in Krakow. 
+          Aiden loves to make web applications and engaging user experiences based on 7 
+          years of work experience with some of the world's largest financial and pharmaceutical institutions.
           </p>
+          <br/>
           <p>
-            <strong>Education:</strong> MBA Candidate, BBA
+            <strong>Education:</strong> MBA, BS. Computer Science, BBA
           </p>
           <p>
             <strong>Languages:</strong> English, Polish
           </p>
           <p>
-            <strong>Visited:</strong> 🇺🇸 🇵🇱 🇯🇵 🇲🇽 🇹🇭 🇩🇪 🇫🇷 🇳🇱 🇭🇺
+            <strong>Visited:</strong> 🇺🇸 🇵🇱 🇯🇵 🇲🇽 🇹🇭 🇩🇪 🇫🇷 🇳🇱 🇭🇺 🇺🇦 🇧🇧 🇲🇨 🇨🇿
           </p>
           <h2 className="subheading">Skills</h2>
           <div className="skills">
@@ -178,60 +181,6 @@ const Resumecomponent = () => {
               <li className="skill-box__skill">GraphQL/REST</li>
               <li className="skill-box__skill">MySQL/MongoDB</li>
             </ul>
-          </div>
-          <p className="infoBox">
-            <strong>Want to learn</strong>: GatsbyJS
-          </p>
-          <h2 className="subheading">Latest Projects</h2>
-          <div className='latest--projects'>
-            <div className="project--box">
-              <h3 className="bold bottomBorder">
-                <a href="https://mclinica.com/" target="_blank">
-                  mClinica (SwipeRX)
-                </a>
-              </h3>
-              <p>
-                <strong>Role:</strong> Fullstack developer
-              </p>
-              <div className="stack-n-scope">
-                <div className="stack-n-scope__section">
-                  <p>
-                    <strong>Frontend:</strong> React, Redux, Typescript, <br />{" "}
-                    Webpack, Styled-Components, Moment.JS, React Router
-                  </p>
-                  <p>
-                    <strong>Backend:</strong> Node, Warp, Express, Sentry
-                  </p>
-                  <p>
-                    <strong>Server:</strong> MySQL, Azure, Papertrail
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="project--box">
-              <h3 className="bold bottomBorder">
-                <a href="https://www.imssensory.com/en/rd/" target="_blank">
-                  IMS r&d (MapMaker)
-                </a>
-              </h3>
-              <p>
-                <strong>Role:</strong> Frontend developer
-              </p>
-              <div className="stack-n-scope">
-                <div className="stack-n-scope__section">
-                  <p>
-                    <strong>Frontend:</strong> Angular 4, RxJs, Typescript, <br />{" "}
-                    Webpack, Leaflet, OpenStreetMap
-                  </p>
-                  <p>
-                    <strong>Backend:</strong> Django, Sentry
-                  </p>
-                  <p>
-                    <strong>Server:</strong> MySQL
-                  </p>
-                </div>
-              </div>
-            </div>
           </div>
         </StyledResume>
       </section>

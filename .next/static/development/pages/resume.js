@@ -105,25 +105,25 @@ var Resumecomponent = function Resumecomponent() {
       lineNumber: 143
     },
     __self: this
-  }, "Bravelab"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Bravelab"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 148
     },
     __self: this
-  }, "Hey there! I am a self-motivated web developer. Ambitious & problem-solving. From New York, currently in Krakow."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152
+      lineNumber: 149
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+  }, "Business Developer turned Web Developer. From New York, currently in Krakow. Aiden loves to make web applications and engaging user experiences based on 7 years of work experience with some of the world's largest financial and pharmaceutical institutions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153
+      lineNumber: 154
     },
     __self: this
-  }, "Education:"), " MBA Candidate, BBA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 155
@@ -135,7 +135,7 @@ var Resumecomponent = function Resumecomponent() {
       lineNumber: 156
     },
     __self: this
-  }, "Languages:"), " English, Polish"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Education:"), " MBA, BS. Computer Science, BBA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 158
@@ -147,326 +147,131 @@ var Resumecomponent = function Resumecomponent() {
       lineNumber: 159
     },
     __self: this
-  }, "Visited:"), " \uD83C\uDDFA\uD83C\uDDF8 \uD83C\uDDF5\uD83C\uDDF1 \uD83C\uDDEF\uD83C\uDDF5 \uD83C\uDDF2\uD83C\uDDFD \uD83C\uDDF9\uD83C\uDDED \uD83C\uDDE9\uD83C\uDDEA \uD83C\uDDEB\uD83C\uDDF7 \uD83C\uDDF3\uD83C\uDDF1 \uD83C\uDDED\uD83C\uDDFA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "subheading",
+  }, "Languages:"), " English, Polish"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 161
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 162
+    },
+    __self: this
+  }, "Visited:"), " \uD83C\uDDFA\uD83C\uDDF8 \uD83C\uDDF5\uD83C\uDDF1 \uD83C\uDDEF\uD83C\uDDF5 \uD83C\uDDF2\uD83C\uDDFD \uD83C\uDDF9\uD83C\uDDED \uD83C\uDDE9\uD83C\uDDEA \uD83C\uDDEB\uD83C\uDDF7 \uD83C\uDDF3\uD83C\uDDF1 \uD83C\uDDED\uD83C\uDDFA \uD83C\uDDFA\uD83C\uDDE6 \uD83C\uDDE7\uD83C\uDDE7 \uD83C\uDDF2\uD83C\uDDE8 \uD83C\uDDE8\uD83C\uDDFF"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "subheading",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 164
     },
     __self: this
   }, "Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "skills",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162
+      lineNumber: 165
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "skill-box",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163
+      lineNumber: 166
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "bold skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164
+      lineNumber: 167
     },
     __self: this
   }, "FRONTEND"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 165
+      lineNumber: 168
     },
     __self: this
   }, "Javascript/ES.Next/TypeScript"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168
+      lineNumber: 171
     },
     __self: this
   }, "React/Next.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 169
+      lineNumber: 172
     },
     __self: this
   }, "Redux/Apollo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170
+      lineNumber: 173
     },
     __self: this
   }, "SASS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171
+      lineNumber: 174
     },
     __self: this
   }, "Webpack/Parcel/NPM")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "skill-box",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 173
+      lineNumber: 176
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "bold skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 174
+      lineNumber: 177
     },
     __self: this
   }, "BACKEND"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 175
+      lineNumber: 178
     },
     __self: this
   }, "Node.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176
+      lineNumber: 179
     },
     __self: this
   }, "Express.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177
+      lineNumber: 180
     },
     __self: this
   }, "Apollo Server"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178
+      lineNumber: 181
     },
     __self: this
   }, "GraphQL/REST"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179
-    },
-    __self: this
-  }, "MySQL/MongoDB"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "infoBox",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 182
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 183
-    },
-    __self: this
-  }, "Want to learn"), ": GatsbyJS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "subheading",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 185
-    },
-    __self: this
-  }, "Latest Projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "latest--projects",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 186
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "project--box",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 187
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "bold bottomBorder",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 188
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://mclinica.com/",
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 189
-    },
-    __self: this
-  }, "mClinica (SwipeRX)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 193
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 194
-    },
-    __self: this
-  }, "Role:"), " Fullstack developer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "stack-n-scope",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 196
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "stack-n-scope__section",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 197
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 198
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 199
-    },
-    __self: this
-  }, "Frontend:"), " React, Redux, Typescript, ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 199
-    },
-    __self: this
-  }), " ", "Webpack, Styled-Components, Moment.JS, React Router"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 202
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 203
-    },
-    __self: this
-  }, "Backend:"), " Node, Warp, Express, Sentry"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 205
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 206
-    },
-    __self: this
-  }, "Server:"), " MySQL, Azure, Papertrail")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "project--box",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 211
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "bold bottomBorder",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 212
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://www.imssensory.com/en/rd/",
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 213
-    },
-    __self: this
-  }, "IMS r&d (MapMaker)")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 217
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 218
-    },
-    __self: this
-  }, "Role:"), " Frontend developer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "stack-n-scope",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 220
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "stack-n-scope__section",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 221
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 222
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 223
-    },
-    __self: this
-  }, "Frontend:"), " Angular 4, RxJs, Typescript, ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 223
-    },
-    __self: this
-  }), " ", "Webpack, Leaflet, OpenStreetMap"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 226
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 227
-    },
-    __self: this
-  }, "Backend:"), " Django, Sentry"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 229
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 230
-    },
-    __self: this
-  }, "Server:"), " MySQL"))))))));
+  }, "MySQL/MongoDB"))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Resumecomponent);
@@ -4414,7 +4219,7 @@ var Resume = function Resume(props) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!********************************!*\
   !*** multi ./pages/resume.jsx ***!
   \********************************/
@@ -4439,5 +4244,5 @@ module.exports = dll_e8427f5b250f425a56e7;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]));;
+},[[5,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=resume.js.map
