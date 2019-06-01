@@ -1,97 +1,4 @@
-module.exports =
-/******/ (function(modules) { // webpackBootstrap
-/******/ 	// The module cache
-/******/ 	var installedModules = require('../../../ssr-module-cache.js');
-/******/
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
-/******/ 			return installedModules[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moduleId,
-/******/ 			l: false,
-/******/ 			exports: {}
-/******/ 		};
-/******/
-/******/ 		// Execute the module function
-/******/ 		var threw = true;
-/******/ 		try {
-/******/ 			modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/ 			threw = false;
-/******/ 		} finally {
-/******/ 			if(threw) delete installedModules[moduleId];
-/******/ 		}
-/******/
-/******/ 		// Flag the module as loaded
-/******/ 		module.l = true;
-/******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/
-/******/
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = modules;
-/******/
-/******/ 	// expose the module cache
-/******/ 	__webpack_require__.c = installedModules;
-/******/
-/******/ 	// define getter function for harmony exports
-/******/ 	__webpack_require__.d = function(exports, name, getter) {
-/******/ 		if(!__webpack_require__.o(exports, name)) {
-/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
-/******/ 		}
-/******/ 	};
-/******/
-/******/ 	// define __esModule on exports
-/******/ 	__webpack_require__.r = function(exports) {
-/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 		}
-/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 	};
-/******/
-/******/ 	// create a fake namespace object
-/******/ 	// mode & 1: value is a module id, require it
-/******/ 	// mode & 2: merge all properties of value into the ns
-/******/ 	// mode & 4: return value when already ns object
-/******/ 	// mode & 8|1: behave like require
-/******/ 	__webpack_require__.t = function(value, mode) {
-/******/ 		if(mode & 1) value = __webpack_require__(value);
-/******/ 		if(mode & 8) return value;
-/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
-/******/ 		var ns = Object.create(null);
-/******/ 		__webpack_require__.r(ns);
-/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
-/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
-/******/ 		return ns;
-/******/ 	};
-/******/
-/******/ 	// getDefaultExport function for compatibility with non-harmony modules
-/******/ 	__webpack_require__.n = function(module) {
-/******/ 		var getter = module && module.__esModule ?
-/******/ 			function getDefault() { return module['default']; } :
-/******/ 			function getModuleExports() { return module; };
-/******/ 		__webpack_require__.d(getter, 'a', getter);
-/******/ 		return getter;
-/******/ 	};
-/******/
-/******/ 	// Object.prototype.hasOwnProperty.call
-/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
-/******/
-/******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
-/******/
-/******/
-/******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
-/******/ })
-/************************************************************************/
-/******/ ({
+webpackHotUpdate("static/development/pages/resume.js",{
 
 /***/ "./components/Resumecomponent.jsx":
 /*!****************************************!*\
@@ -102,10 +9,9 @@ module.exports =
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "styled-components");
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 var _jsxFileName = "/home/aiden/webdev/DoneProjectsFull/aidenec/components/Resumecomponent.jsx";
 
 
@@ -122,7 +28,7 @@ function _templateObject() {
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 
-var StyledResume = styled_components__WEBPACK_IMPORTED_MODULE_1___default.a.div(_templateObject());
+var StyledResume = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].div(_templateObject());
 
 var Resumecomponent = function Resumecomponent() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
@@ -300,35 +206,35 @@ var Resumecomponent = function Resumecomponent() {
       lineNumber: 169
     },
     __self: this
-  }, "Javascript / TypeScript"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Javascript /TypeScript"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 172
     },
     __self: this
-  }, "React.js / Next.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "React.js/Next.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 173
     },
     __self: this
-  }, "Redux / Apollo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Redux/Apollo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 174
     },
     __self: this
-  }, "SASS / CSS / HTML"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "SASS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 175
     },
     __self: this
-  }, "Webpack / Parcel / NPM")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, "Webpack/Parcel/NPM")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "skill-box",
     __source: {
       fileName: _jsxFileName,
@@ -370,83 +276,19 @@ var Resumecomponent = function Resumecomponent() {
       lineNumber: 182
     },
     __self: this
-  }, "GraphQL / REST"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "GraphQL/REST"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 183
     },
     __self: this
-  }, "MySQL / MongoDB"))))));
+  }, "MySQL/MongoDB"))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Resumecomponent);
 
-/***/ }),
-
-/***/ "./pages/resume.jsx":
-/*!**************************!*\
-  !*** ./pages/resume.jsx ***!
-  \**************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Resumecomponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Resumecomponent */ "./components/Resumecomponent.jsx");
-var _jsxFileName = "/home/aiden/webdev/DoneProjectsFull/aidenec/pages/resume.jsx";
-
-
-
-var Resume = function Resume(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Resumecomponent__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  });
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Resume);
-
-/***/ }),
-
-/***/ 4:
-/*!********************************!*\
-  !*** multi ./pages/resume.jsx ***!
-  \********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! ./pages/resume.jsx */"./pages/resume.jsx");
-
-
-/***/ }),
-
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react");
-
-/***/ }),
-
-/***/ "styled-components":
-/*!************************************!*\
-  !*** external "styled-components" ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("styled-components");
-
 /***/ })
 
-/******/ });
-//# sourceMappingURL=resume.js.map
+})
+//# sourceMappingURL=resume.js.14266e16b9b97171a56d.hot-update.js.map

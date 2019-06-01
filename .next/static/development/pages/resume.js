@@ -117,7 +117,7 @@ var Resumecomponent = function Resumecomponent() {
       lineNumber: 149
     },
     __self: this
-  }, "Business Developer turned Web Developer. From New York, currently in Krakow. Aiden loves to make web applications and engaging user experiences based on 7 years of work experience with some of the world's largest financial and pharmaceutical institutions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  }, "Business Developer turned Web Developer. From New York, currently in Krakow. Aiden loves to make web applications and engaging user experiences based on 8 years of work experience with some of the world's largest financial and pharmaceutical institutions."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 154
@@ -135,143 +135,155 @@ var Resumecomponent = function Resumecomponent() {
       lineNumber: 156
     },
     __self: this
-  }, "Education:"), " MBA, BS. Computer Science, BBA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "CS Education:"), " BSc Computer Science (Current) ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158
+      lineNumber: 156
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 157
+    },
+    __self: this
+  }, "Business Education:"), " MBA (Current), BBA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 159
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 160
+    },
+    __self: this
   }, "Languages:"), " English, Polish"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 161
+      lineNumber: 162
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162
+      lineNumber: 163
     },
     __self: this
   }, "Visited:"), " \uD83C\uDDFA\uD83C\uDDF8 \uD83C\uDDF5\uD83C\uDDF1 \uD83C\uDDEF\uD83C\uDDF5 \uD83C\uDDF2\uD83C\uDDFD \uD83C\uDDF9\uD83C\uDDED \uD83C\uDDE9\uD83C\uDDEA \uD83C\uDDEB\uD83C\uDDF7 \uD83C\uDDF3\uD83C\uDDF1 \uD83C\uDDED\uD83C\uDDFA \uD83C\uDDFA\uD83C\uDDE6 \uD83C\uDDE7\uD83C\uDDE7 \uD83C\uDDF2\uD83C\uDDE8 \uD83C\uDDE8\uD83C\uDDFF"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "subheading",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164
+      lineNumber: 165
     },
     __self: this
   }, "Skills"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "skills",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 165
+      lineNumber: 166
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "skill-box",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 166
+      lineNumber: 167
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "bold skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 167
+      lineNumber: 168
     },
     __self: this
   }, "FRONTEND"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168
+      lineNumber: 169
     },
     __self: this
-  }, "Javascript/ES.Next/TypeScript"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "skill-box__skill",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 171
-    },
-    __self: this
-  }, "React/Next.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Javascript / TypeScript"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 172
     },
     __self: this
-  }, "Redux/Apollo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "React.js / Next.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 173
     },
     __self: this
-  }, "SASS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Redux / Apollo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 174
     },
     __self: this
-  }, "Webpack/Parcel/NPM")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, "SASS / CSS / HTML"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "skill-box__skill",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 175
+    },
+    __self: this
+  }, "Webpack / Parcel / NPM")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "skill-box",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176
+      lineNumber: 177
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "bold skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177
+      lineNumber: 178
     },
     __self: this
   }, "BACKEND"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178
+      lineNumber: 179
     },
     __self: this
   }, "Node.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179
+      lineNumber: 180
     },
     __self: this
   }, "Express.js"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 180
+      lineNumber: 181
     },
     __self: this
   }, "Apollo Server"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "skill-box__skill",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181
-    },
-    __self: this
-  }, "GraphQL/REST"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: "skill-box__skill",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 182
     },
     __self: this
-  }, "MySQL/MongoDB"))))));
+  }, "GraphQL / REST"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "skill-box__skill",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 183
+    },
+    __self: this
+  }, "MySQL / MongoDB"))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Resumecomponent);
@@ -4219,7 +4231,7 @@ var Resume = function Resume(props) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!********************************!*\
   !*** multi ./pages/resume.jsx ***!
   \********************************/
@@ -4244,5 +4256,5 @@ module.exports = dll_e8427f5b250f425a56e7;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]));;
+},[[4,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=resume.js.map

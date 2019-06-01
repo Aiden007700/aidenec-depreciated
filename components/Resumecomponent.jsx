@@ -148,12 +148,13 @@ const Resumecomponent = () => {
           <br/>
           <p>
           Business Developer turned Web Developer. From New York, currently in Krakow. 
-          Aiden loves to make web applications and engaging user experiences based on 7 
+          Aiden loves to make web applications and engaging user experiences based on 8 
           years of work experience with some of the world's largest financial and pharmaceutical institutions.
           </p>
           <br/>
           <p>
-            <strong>Education:</strong> MBA, BS. Computer Science, BBA
+            <strong>CS Education:</strong> BSc Computer Science (Current) <br/>
+            <strong>Business Education:</strong> MBA (Current), BBA
           </p>
           <p>
             <strong>Languages:</strong> English, Polish
@@ -166,20 +167,20 @@ const Resumecomponent = () => {
             <ul className="skill-box">
               <li className="bold skill-box__skill">FRONTEND</li>
               <li className="skill-box__skill">
-                Javascript/ES.Next/TypeScript
+                Javascript / TypeScript
               </li>
-              <li className="skill-box__skill">React/Next.js</li>
-              <li className="skill-box__skill">Redux/Apollo</li>
-              <li className="skill-box__skill">SASS</li>
-              <li className="skill-box__skill">Webpack/Parcel/NPM</li>
+              <li className="skill-box__skill">React.js / Next.js</li>
+              <li className="skill-box__skill">Redux / Apollo</li>
+              <li className="skill-box__skill">SASS / CSS / HTML</li>
+              <li className="skill-box__skill">Webpack / Parcel / NPM</li>
             </ul>
             <ul className="skill-box">
               <li className="bold skill-box__skill">BACKEND</li>
               <li className="skill-box__skill">Node.js</li>
               <li className="skill-box__skill">Express.js</li>
               <li className="skill-box__skill">Apollo Server</li>
-              <li className="skill-box__skill">GraphQL/REST</li>
-              <li className="skill-box__skill">MySQL/MongoDB</li>
+              <li className="skill-box__skill">GraphQL / REST</li>
+              <li className="skill-box__skill">MySQL / MongoDB</li>
             </ul>
           </div>
         </StyledResume>
